@@ -123,7 +123,7 @@ class Blockchain:
         import requests
         response = requests.get(f'http://{node}/chain')
         return response
-
+'''
 # Example usage
 blockchain = Blockchain()
 blockchain.register_node('127.0.0.1:5000')
@@ -137,3 +137,4 @@ blockchain.mine()
 print("Blockchain:")
 for block in blockchain.chain:
     print(block.__dict__)
+'''
